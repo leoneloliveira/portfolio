@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <title>Porfólio do Leonel</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">SOBRE MIM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="projetos.html">PROJETOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">CONTATO</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container"> 
+    <header class="topo">
+      <h1 class="titulo">ENTRE EM CONTATO COMIGO! 😎😎😎</h1>
+    </header>
+
+    <main class="corpo">
+        
+        <div class="linha">
+        <div class="coluna hover">
+            <a href="https://wa.me/5511942065845" target="_blank">
+              <figure>
+                <img src="img/logos/whatsapp.png" alt="Autodidata" height="200" width="200"/>
+              </figure>
+                </a>
+              <h4 class="titulo-info">WHATSAPP</h4>
+              <p class="info">Para me chamar no whatsapp</p>
+            
+        </div>
+        <div class="coluna hover">
+          <a href="https://github.com/leoneloliveira">
+          <figure>
+            <img src="img/logos/github.jpeg" alt="Proativo" height="200" width="200"/>
+          </figure>
+          </a>
+          <h4 class="titulo-info">GITHUB</h4>
+          <p class="info">Para me encontrar no Github</p>
+        </div>
+        <div class="coluna hover">
+          <a href="https://www.linkedin.com/in/leonel-oliveira-7aa1451b4/">
+          <figure>
+            <img src="img/logos/linkedin.png" alt="Participativo" height="200" width="200"/>
+          </figure>
+          </a>
+          <h4 class="titulo-info">LINKEDIN</h4>
+          <p class="info">Para me encontrar no Linkedin </p>
+        </div>
+      </div>
+
+      <h2 class="titulo">OU PREENCHA ESSE FORMULÁRIO, QUE EU TE CHAMO!</h2>
+
+      <form action="#" method="POST" id="contato" class="formulario">
+  
+          <div class="linha">
+  
+              <div class="coluna">
+                  <label for="nomeTxt">SEU NOME</label>
+                  <input type="text" name="nomeTxt" id="nomeTxt" class="campo" placeholder="SEU NOME" maxlength="50" required />
+                  <span id="ajudaNome"></span>
+              </div>
+              
+              <div class="coluna">
+                  <label for="emailTxt">SEU EMAIL</label>
+                  <input type="email" name="emailTxt" id="emailTxt" class="campo" placeholder="SEU EMAIL" maxlength="60" required />
+              </div>
+  
+          </div>
+          
+          <div class="linha">
+  
+              <div class="coluna">
+                  <label for="whatsappTxt">SEU WHATSAPP</label>
+                  <input type="text" name="whatsappTxt" id="whatsappTxt" class="campo" placeholder="SEU WHATSAPP" maxlength="13" required />
+                  <span id="ajudaWhatsapp"></span>
+              </div>
+              
+              <div class="coluna">
+                  <label for="assuntoTxt">ASSUNTO</label>
+                  <input type="text" name="assuntoTxt" id="assuntoTxt" class="campo" placeholder="ASSUNTO" maxlength="50" required />
+              </div>
+          
+          </div>
+          
+          <div class="linha">
+              
+              <div class="coluna">
+                  <label for="descTxt">UM BREVE RESUMO</label>
+                  <textarea class="campo" name="descTxt" id="descTxt" rows="6" placeholder="UM BREVE RESUMO" maxlength="255"></textarea>
+              </div>
+              
+          </div>
+          
+          <div class="linha">
+              <div class="coluna">
+                  <button type="submit" id="btn" value="ok" >ENVIAR</button>
+              </div>
+          </div>
+  
+      </form>
+          
+            
+    </main>
+      
+    <footer class="rodape">
+      <p>2022 - Desenvolvido por mim 😎</p>
+    </footer>
+  </div>
+  
+
+
+</body>
+<script src="script.js" charset=utf-8></script>
+</html>
+
+
+
+
+
